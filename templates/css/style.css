@@ -1,0 +1,154 @@
+/*
+  Students:
+  Bshara Karkaby [49-2]
+  Moner Makhouly [49-2]
+*/
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #dae3ec;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+main {
+  flex-grow: 1; /* Allows main content to grow and fill space */
+}
+
+header,
+footer,
+.author {
+  color: #1a5e97;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #1a5e97;
+  text-align: center;
+  padding: 20px 0;
+}
+/* Book Cover Wrapper */
+.book-cover {
+  width: 400px;
+  height: 560px;
+  border: 1px solid rgba(0, 0, 0, 0.119);
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  text-align: end;
+}
+
+/* Top Section */
+.top-section {
+  background: #dedede;
+}
+.top-section .logo {
+  background-color: #3b3b3b;
+  color: white;
+  width: 22%;
+  padding: 5px 5px 5px 0px;
+  margin-left: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+}
+.top-section .logo span {
+  font-size: 9px;
+  position: absolute;
+}
+
+.top-section .quote {
+  font-size: 10px;
+  padding-right: 1rem;
+}
+
+.top-section .author {
+  font-size: 27px;
+  text-align: end;
+  padding: 2rem 1rem 2rem 0rem;
+  text-transform: uppercase;
+  transform: scaleY(1.2);
+}
+
+/* Middle Section */
+.middle-section {
+  background: white;
+  padding: 1rem 1rem;
+
+  font-size: 2.3rem;
+  color: rgb(62, 62, 62);
+  transform: scaleY(1.2);
+  text-transform: uppercase;
+}
+
+/* Bottom Section */
+.bottom-section {
+  background: #ffe81bdd;
+  flex: 3;
+  display: flex;
+  align-items: center;
+}
+
+.bottom-section p {
+  font-size: 12rem;
+  font-weight: bold;
+  color: #353535;
+  transform: scaleY(1.2);
+}
+
+.bottom-section span {
+  font-size: 1.4rem;
+  color: black;
+  transform: rotate(-90deg);
+}
+
+.author {
+  font-size: 1.6rem;
+}
+
+.info {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  margin-left: 34%;
+  padding: 2.3rem 0rem;
+}
+
+footer {
+  font-size: 1.4rem;
+}
+
+header {
+  background-color: #333;
+  padding: 26px 0px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #4caf50;
+}

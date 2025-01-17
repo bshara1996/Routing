@@ -1,0 +1,51 @@
+/*
+  Students:
+  Bshara Karkaby [49-2]
+  Moner Makhouly [49-2]
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #dae3ec;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #4caf50;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+p {
+  width: 60%;
+  margin: auto;
+  font-size: 22px;
+  line-height: 1.6;
+}
