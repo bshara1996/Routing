@@ -4,7 +4,6 @@ A Node.js web server that implements routing to serve multiple HTML pages and ex
 
 ## 📋 Task Requirements
 
-**English:**
 1. Create a project folder.
 2. Create a `templates` sub-folder within the project folder.
 3. Create a `page.html` file that looks like the attached image. You can use a different image.
